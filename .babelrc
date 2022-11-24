@@ -1,0 +1,11 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // 模块的关键字，important export 不要让babel转译，让rollup转译
+        "modules": false
+      }
+    ]
+  ]
+}

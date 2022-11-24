@@ -1,0 +1,46 @@
+{
+  "name": "rollup",
+  "version": "1.0.0",
+  "description": "rollup",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup --config -w",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankera/rollup.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankera/rollup/issues"
+  },
+  "homepage": "https://github.com/Ankera/rollup#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@babel/preset-env": "^7.20.2",
+    "@rollup/plugin-commonjs": "^23.0.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "@rollup/plugin-typescript": "^9.0.2",
+    "@types/lodash": "^4.14.188",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "lodash": "^4.17.21",
+    "postcss": "^8.4.19",
+    "rollup": "^3.3.0",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-livereload": "^2.0.5",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-serve": "^2.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "tslib": "^2.4.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "acorn": "^8.8.1",
+    "lodash": "^4.17.21",
+    "magic-string": "^0.26.7"
+  }
+}
